@@ -99,6 +99,7 @@ namespace DAQassignment1
             this.button2.TabIndex = 1;
             this.button2.Text = "Log to File";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label2
             // 
@@ -128,7 +129,8 @@ namespace DAQassignment1
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(730, 168);
             this.textBox3.TabIndex = 5;
-            this.textBox3.Text = "Hello";
+            this.textBox3.Text = "Sample data Display";
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // Form1
             // 
